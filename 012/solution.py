@@ -12,7 +12,7 @@ class Solution(object):
         for item in symbols:
             val, sym = item
             while num >= val:
-                num -= vala
+                num -= val
                 roman += sym
         
         return roman
