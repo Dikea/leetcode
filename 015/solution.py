@@ -27,6 +27,6 @@ class Solution(object):
                     while l < r and nums[r - 1] == nums[r]:
                         r -= 1
                     l += 1
-					r -= 1
+		    r -= 1
                     
         return results
